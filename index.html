@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WhatsApp Sign-Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" class="logo">
+    <h2>Enter your phone number</h2>
+    <form id="signupForm">
+      <label for="country">Select country:</label>
+      <select id="countryCode" name="countryCode">
+        <option value="+1">🇺🇸 United States (+1)</option>
+        <option value="+44">🇬🇧 United Kingdom (+44)</option>
+        <option value="+91" selected>🇮🇳 India (+91)</option>
+        <option value="+27">🇿🇦 South Africa (+27)</option>
+        <!-- Add more as needed -->
+      </select>
+      <div class="phone-input">
+        <input type="text" id="phone" name="phone" placeholder="Phone number" required>
+      </div>
+      <button type="submit">Next</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
