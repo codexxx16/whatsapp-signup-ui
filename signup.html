@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enter Phone Number</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="signup-wrapper">
+    <h2>Enter your phone number</h2>
+    <p class="info-text">
+      WhatsApp will need to verify your phone number. Carrier charges may apply.
+      <a href="#">What's my number?</a>
+    </p>
+
+    <div class="input-group">
+      <label for="country">Country</label>
+      <select id="country">
+        <option selected>South Africa</option>
+        <option>Nigeria</option>
+        <option>India</option>
+        <option>United States</option>
+      </select>
+    </div>
+
+    <div class="input-row">
+      <div class="code-box">+27</div>
+      <input type="tel" placeholder="Phone number" />
+    </div>
+
+    <button onclick="location.href='verify.html'">Next</button>
+  </div>
+</body>
+</html>
